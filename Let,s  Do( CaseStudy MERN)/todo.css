@@ -1,0 +1,35 @@
+.disabledList{
+    
+        pointer-events:none; 
+        opacity:.6;        
+    
+}
+
+#todoList{
+        background-color: red;
+        
+        border: 10px solid rgb(0, 0, 0);
+        border-radius: 1rem;
+
+
+}
+h3{      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         background-color: aquamarine; opacity: .8;}
+
+
+
+#mainnavbar{
+        background: rgb(67, 139, 221);
+}
+
+    body{
+  background-image: url('https://wallpapercave.com/wp/wp1917508.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    background-color: rgb(243, 88, 26);
+    position: inherit;
+    min-height: 89vh;
+      
+}
+    
