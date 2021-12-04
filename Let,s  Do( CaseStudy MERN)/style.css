@@ -5,42 +5,48 @@
     
 }
 body{
+  
+  /* text-align: center; */
+  /* margin: 50px auto; */
   background-image: url('https://cdn.crello.com/api/media/medium/200319374/stock-photo-close-view-laptop-blank-screen?token=');
+  position: relative;
       background-repeat: no-repeat;
-      background-attachment: fixed;
+      background-attachment: inherit;
       background-size: 100% 100%;
     background-color: rgb(85, 192, 241);
-    position: fixed;
+    position: -ms-page;
     min-height: 89vh;
 }
 
 
-.minHeight{
+ .minHeight{
     min-height: 0em;
 }
 .marginTop{
-    margin-top: 150px;
+    margin-top:160px;
 }
 .marginBottomReduce{
     margin-bottom: 20px !important;
 }
 
 .pushRight{
-    position: absolute !important;
+    position: relative !important;
     left:60px !important;
-    /* top: 13px !important; */
+    top: 13px !important;
 
-}
+ }
 
 /* login form styles */
 main {
+  /* margin: 50px auto; */
+  /* text-align: center; */
     height: 70vh;
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
+    /* position: relative; */
   }
   .stepper {
     width: 20rem;
@@ -52,26 +58,27 @@ main {
   }
 
   .form {
-    background: #ffffff;
+    background: #000000;
     text-align: center;
-    margin-left: 45em;
-    position: inherit;
+    /* margin-left: em; */
+    /* position: relative; */
+    color: rgb(157, 255, 127);
     width: 25rem;
-    box-shadow: 0.2rem 0.2rem 0.5rem rgba(51, 51, 51, 0.2);
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(255, 0, 0);
     display: none;
     border-radius: .5rem;
     overflow: hidden;
   }
   .form--header-container {
     background:var(--themeColor);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 238, 255);
     height: 6rem;
     padding: 1rem 0;
     margin-bottom: 2rem;
   }
   
   .form--header-title {
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
   
   .form--header-text {
