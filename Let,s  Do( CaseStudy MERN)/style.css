@@ -13,7 +13,7 @@ body{
       background-repeat: no-repeat;
       background-attachment: inherit;
       background-size: 100% 100%;
-    background-color: rgb(85, 192, 241);
+    background-color: rgb(255, 255, 255);
     position: -ms-page;
     min-height: 89vh;
 }
@@ -62,7 +62,7 @@ main {
     text-align: center;
     /* margin-left: em; */
     /* position: relative; */
-    color: rgb(157, 255, 127);
+    color: rgb(63, 253, 0);
     width: 25rem;
     box-shadow: 0.2rem 0.2rem 0.5rem rgb(255, 0, 0);
     display: none;
@@ -93,7 +93,7 @@ main {
     display: block;
     border-radius: 1rem;
     outline: none;
-    border: 1px solid #43cea2;
+    border: 1px solid #f5f5f5;
   }
   input[type='password'] {
     padding: 1rem;
@@ -103,7 +103,7 @@ main {
     display: block;
     border-radius: 1rem;
     outline: none;
-    border: 1px solid #43cea2;
+    border: 1px solid #6df6cb;
   }
   
   
